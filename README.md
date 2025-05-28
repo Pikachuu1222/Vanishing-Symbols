@@ -1,7 +1,8 @@
 # Vanishing-Symbols
 Vanishing Symbols is an interactive public‐art installation that probes hidden symbolic violence in short‐video culture. Using proximity sensing and computer vision, it creates two states of visual patterns:
-- **Solidify: when people ignore the panels, bold, concrete shapes remain on–screen, symbolizing the unnoticed oppression in brief social videos.
-- **Disperse: as viewers approach and become aware, those shapes dissolve into particles and fade, inviting reflection on inequality’s subtle forces.
+- Solidify: when people ignore the panels, bold, concrete shapes remain on–screen, symbolizing the unnoticed oppression in brief social videos.
+- Disperse: as viewers approach and become aware, those shapes dissolve into particles and fade, inviting reflection on inequality’s subtle forces.
+
 Under the hood it combines an Arduino‐based distance sensor, YOLOv4 face‐detector on a small “smart” camera, and TouchDesigner driven visuals—triggered via OSC messages—to close the loop between body, mind, and image.
 
 ![Solidify → Disperse](./assets/preview.gif)
